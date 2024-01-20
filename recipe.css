@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+img{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+body{
+    background-color: #F3E5D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.body{
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    width: 40%;
+    margin: 80px;
+}
+
+.head h1{
+    font-size: 30px;
+    color: hsl(332, 51%, 32%);
+}
+
+.head p{
+    padding-top: 5px;
+}
+
+.body-inner{
+    padding: 20px;
+    background-color:  hsl(330, 100%, 98%);
+}
+
+.body-inner h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.body-inner2{
+    padding: 10px;
+}
+
+.body-inner2 h1{
+    color:  hsl(14, 45%, 36%);
+    font-size: 20px;
+}
+
+.body-inner2 ul{
+    padding: 10px;
+}
+
+.body-inner3 h1{
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+}
+
+.body-inner3 ol{
+    padding: 15px;
+}
+
+.body-inner4 h1{
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+    padding: 7px;
+}
+
+.body-inner4 table{
+    padding: 15px;
+}
+
+.body-inner4 p{
+    padding: 7px;
+}
+
+@media (min-width: 320px) and (max-width: 580px){
+    .body{
+        width: 60%;
+    }
+    img{
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 800px){
+    .body{
+        width: 60%;
+    }
+    img{
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1180px){
+    .body{
+        width: 60%;
+    }
+    img{
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 162px) and (max-width: 197px){
+    .body{
+        width: 50%;
+    }
+    img{
+        width: 100%;
+        padding: 5px;
+    }
+    .body h1{
+        font-size: 20px;
+    }
+    .body-inner h3{
+        font-size: 12px;
+    }
+    .body-inner2 h1{
+        font-size: 15px;
+    }
+    .body-inner3 h1{
+        font-size: 15px;
+    }
+    .body-inner4 h1{
+        font-size: 18px;
+    }
+}
